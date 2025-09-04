@@ -27,7 +27,7 @@ specific programs in specific schools and notifies users by email, allowing them
 
 ## 4. Environment Configuration:
 * Create the ```.env``` file at the root of the project
-* Copy the ```.env.example``` file and rename it to .env
+* Copy ```.env.example```'s content and paste it into ```.env``` file
 * Open the ```.env``` file and configure your environment variables:
     * Set the school id, program ids (visit the [Montreal School Service Center](https://portaileleve.cssdm.gouv.qc.ca/)'s website, look for your programs and copy the schoolID and programmeId from the request url)
     * Set the sender and receiver of emails
